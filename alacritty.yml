@@ -21,6 +21,7 @@ window:
   # Allow terminal applications to change Alacritty's window title.
   dynamic_title: false
 
+working_directory: C:/Users/seant
   
 #scrolling:
   # Maximum number of lines in the scrollback buffer.
