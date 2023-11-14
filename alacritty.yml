@@ -226,7 +226,7 @@ import:
 key_bindings:
   - {key: Space, mods: Control, chars: "\0"}
   - {key: P, mods: Alt, action: Paste}
-  - {key: L, mods: Control, action: ClearLogNotice}
+  #- {key: L, mods: Control, action: ClearLogNotice}
   # Vi Mode
   - {key: Space, mods: Shift|Control, mode: ~Search, action: ToggleViMode}
   - {key: Y, mode: Vi|~Search, action: Copy}
@@ -236,7 +236,7 @@ key_bindings:
   - {key: V, mods: Shift, mode: Vi|~Search, action: ToggleLineSelection}
   - {key: V, mods: Control, mode: Vi|~Search, action: ToggleBlockSelection}
   - {key: V, mods: Alt, mode: Vi|~Search, action: ToggleSemanticSelection}
-  - {key: Key0, mode: Vi|~Search, action: First}
+  - {key: Key0, mode: Vi|~Search, action: First,}
   #- {key: Key4, mods: Shift, mode: Vi|~Search, action: Last}
   #- {key: Key6, mods: Shift, mode: Vi|~Search, action: FirstOccupied}
 
